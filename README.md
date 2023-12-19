@@ -119,6 +119,7 @@ We have to change the config file to run only 1 video or image:
 Run this command on image from drive folder custom_detec:
 ```
 !./darknet detector test data/obj.data cfg/yolov3_custom.cfg /mydrive/custom_detec/backup/yolov3_custom_final.weights /mydrive/custom_detec/img_name.jpeg
+imShow('predictions.jpg')
 ```
 
 Run this command on video from drive folder custom_detec:
